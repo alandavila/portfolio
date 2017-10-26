@@ -8,7 +8,7 @@
   box-sizing: border-box;
 }
 * {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Play', sans-serif;
 }
 @media only screen and (max-width: 600px){
   .col-4 {
