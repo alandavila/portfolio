@@ -1,51 +1,63 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <title>Framework Test Page</title>
     <!--My local css file-->
     <link href="css/main.css" rel="stylesheet" >
+    <!--bootstrap framework-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <!--Google font style from https://fonts.google.com/-->
     <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
     <!--Multi browser support-->
     <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css">
   </head>
   <body>
-    <header>
-      a header
-    </header>
-    <div class="grid">
+    <div class="container">
       <div class="row">
-        <div class='col-2'>
+        <header>
+          a header
+        </header>
+    </div>
+      <div class="row">
+        <div class='col-md-2'>
         </div>
-        <div class="col-10">
+        <div class="col-md-10">
           <div class="title_name">
-            Al&aacute;n D&aacute;vila
+            <h1 class="text-left">
+              Al&aacute;n D&aacute;vila
+            </h1>
+            <h2>
+              Portfolio
+            </h2>
           </div>
         </div>
       </div>
       <div class="row">
-        <div class="col-4">
-          <img class="project_img" src="http://placehold.it/300x200">
-          <p>
+        <div class="col-md-4">
+          <img class="img-responsive" src="http://placehold.it/300x200">
+          <h4 class="text-center">
             a paragraph
-          </p>
+          </h4>
         </div>
-        <div class="col-4">
-          <img class="project_img" src="http://placehold.it/300x200">
-          <p>
+        <div class="col-md-4">
+          <img class="img-responsive" src="http://placehold.it/300x200">
+          <h4 class="text-center">
             a paragraph
-          </p>
+          </h4>
         </div>
-        <div class="col-4">
-          <img class="project_img" src="http://placehold.it/300x200">
-          <p>
+        <div class="col-md-4">
+          <img class="img-responsive" src="http://placehold.it/300x200">
+          <h4 class="text-center">
             a paragraph
-          </p>
+          </h4>
         </div>
       </div>
-      <footer>
-        a footer
-      </footer>
+      <div class="row">
+        <footer>
+          a footer
+        </footer>
+    </div>
     </div>
 </html>
