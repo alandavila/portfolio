@@ -19,6 +19,25 @@
   }
 }
 
+header {
+  padding: 25px;
+
+}
+
+footer {
+  padding: 25px;
+
+}
+.title_name {
+  padding: 50px;
+  font-size: -webkit-xxx-large;
+}
+
+.project_img {
+  margin: 15px;
+  padding: 10px;
+}
+
 .row {
   width: 100%;
   display: flex;
