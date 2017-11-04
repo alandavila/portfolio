@@ -20,14 +20,9 @@ footer {
   padding: 25px;
 
 }
-.title_name {
-  padding: 25px;
-  font-size: -webkit-xxx-large;
-}
 
-.project_img {
-  margin: 15px;
-  padding: 10px;
+.img_main {
+  margin: auto;
 }
 
 .jumbotron_main {
@@ -36,6 +31,11 @@ footer {
 
 .text-thin {
   font-weight: 100;
+}
+
+.title_main {
+  font-family: 'Questrial', sans-serif;
+  text-transform: uppercase;
 }
 /*
 .row {
