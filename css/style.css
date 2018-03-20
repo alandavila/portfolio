@@ -39,6 +39,18 @@ footer {
   font-family: 'Questrial', sans-serif;
   text-transform: uppercase;
 }
+
+.row_bottom {
+    font-size: 0;
+}
+.row_bottom > * {
+    float: none;
+    display: inline-block;
+    font-size: 14px; /* if using LESS it's quicker to just use @font-size-base */
+}
+.row_bottom > *:last-child {
+    vertical-align: bottom;
+}
 /*
 .row {
   width: 100%;
