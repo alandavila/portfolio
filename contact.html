@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Al&aacuten D&aacutevila's Portfolio</title>
+    <!--bootstrap framework-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--social media fonts-->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!--Google font style from https://fonts.google.com/-->
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+    <!--My local css file-->
+    <link href="css/style.css" rel="stylesheet" >
+    <!--Multi browser support-->
+    <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css">
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <!--script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script-->
+    <script src="js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12 col-xs-12">
+          <!--menu of page-->
+          <div id="menu"></div>
+          <script>
+            $(function () {
+              $("#menu").load("menu.html");
+            });
+          </script>
+        </div>
+      </div>
+      <!--spacer with a line-->
+      <div class="row">
+        <div class="col-md-12">
+          <hr>
+        </div>
+      </div>
+      <!--projects grid-->
+      <div class="row row_top">
+        <div class="col-xs-12">
+          <h2 class="text-center">contact goes here<h2>
+        </div>
+      </div>
+      <!--spacer with a line-->
+      <div class="row">
+        <div class="col-md-12">
+          <hr>
+        </div>
+      </div>
+
+      <div class="row">
+        <div id="footer"></div>
+          <script>
+            $(function(){
+              $("#footer").load("footer.html");
+            });
+          </script>
+      </div>
+    </div>
+  </body>
+</html>
