@@ -57,7 +57,7 @@ footer {
 }
 .gradient_img{
   position:relative;
-  display:inline-block;
+  /*display:inline-block;*/
 }
 .gradient_img:after{
   content:'';
